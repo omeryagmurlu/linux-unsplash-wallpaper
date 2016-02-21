@@ -22,5 +22,5 @@ then
 else
 	mv $WORKDIR*'.jpg' $WORKDIR'old/'
 fi
-wget -O ${WORKDIR}${RANT}'.jpg' -q https://source.unsplash.com/category/nature/1600x900
+wget -O ${WORKDIR}${RANT}'.jpg' -q https://source.unsplash.com/1600x900
 gsettings set org.gnome.desktop.background picture-uri 'file://'${WORKDIR}${RANT}'.jpg'
